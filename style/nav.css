@@ -1,7 +1,9 @@
 .navpage {
+    display: flex;
+    flex-direction: row;
+    flex-flow: column;
     width: 20%;
     height: 60%;
-    background-color: black;
     z-index: 20;
 
 }
@@ -58,7 +60,8 @@
 
 
 .navtool {
-    left: 1.5%;
+    left: 15%;
+    bottom: 60%;
     width: 7%;
     height: 7%;
     position: absolute;

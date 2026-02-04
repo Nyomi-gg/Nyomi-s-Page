@@ -1,3 +1,19 @@
 body{
     background-color: darkblue;
 }
+
+.pfp{
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    border-width: 10%;
+    border-radius: 20%;
+}
+
+
+.pixle {
+    color: antiquewhite;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
