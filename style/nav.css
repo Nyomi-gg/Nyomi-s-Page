@@ -1,0 +1,69 @@
+.navpage {
+    width: 20%;
+    height: 60%;
+    background-color: black;
+    z-index: 20;
+
+}
+
+.nimg {
+    position: absolute;
+    width: 8%;
+    height: 100%;
+    border-radius: 20%;
+    border-style: groove;
+}
+
+
+.navimg {
+    position: relative;
+    animation-name: UnFadeOpacity;
+    animation-duration: 200ms;
+    opacity: 100%;
+    width: 90%;
+    z-index: 30;
+}
+
+
+@keyframes UnFadeOpacity {
+    from {opacity: 0%;}
+    to {opacity: 100%;}
+}
+@keyframes FadeOpacity {
+    from {opacity: 100%;}
+    to {opacity: 0%; display: none;}
+}
+
+
+.navimg:hover {
+    animation-name: FadeOpacity;
+    animation-duration: 200ms;
+    opacity: 0%;
+}
+
+
+
+
+.navtext {
+    position: relative;
+    left: 18%;
+    bottom: 135%;
+    z-index: 20;
+    color: antiquewhite;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+
+.navtool {
+    left: 1.5%;
+    width: 7%;
+    height: 7%;
+    position: absolute;
+    border-style: hidden;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
