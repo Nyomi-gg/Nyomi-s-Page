@@ -8,6 +8,9 @@
 
 }
 
+
+
+
 .nimg {
     position: absolute;
     width: 8%;
@@ -55,6 +58,7 @@
     font-family: "Press Start 2P", system-ui;
     font-weight: 400;
     font-style: normal;
+    font-size: small;
     
 }
 
@@ -64,9 +68,22 @@
     bottom: 60%;
     width: 7%;
     height: 7%;
+    size: 7%;
     position: absolute;
     border-style: hidden;
     border-radius: 20px;
     background-color: transparent;
 }
+
+.navtool2 {
+    right: 15%;
+    bottom: 65%;
+    width: 7%;
+    height: 7%;
+    position: absolute;
+    border-style: hidden;
+    border-radius: 20px;
+    background-color: transparent;
+}
+
 
